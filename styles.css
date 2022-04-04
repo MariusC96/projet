@@ -34,7 +34,7 @@ header {
     padding-left: 10px;
 }
 
-nav{
+nav {
     height: none;
 }
 
@@ -89,9 +89,9 @@ nav{
 }
 
 .soustitre {
-
     font-size: 15px;
     color: #9b9191;
+    color: #000000;
 }
 
 input {
@@ -384,7 +384,7 @@ aside {
     border-radius: 20px;
     padding: 20px;
     background-color: #f2f2f2;
-    
+
 }
 
 .boxaside {
@@ -407,7 +407,7 @@ aside {
     background-color: white;
     height: 180px;
     box-shadow: 0px 5px 20px #9999;
-    
+
 }
 
 
@@ -425,21 +425,22 @@ aside {
 }
 
 
-.infobox2{
+.infobox2 {
     padding: 10px;
     line-height: 30px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
-.text2{
+
+.text2 {
     display: flex;
     gap: 10px;
     flex-direction: column;
 }
 
 .h3aside {
-    padding:10px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     font-weight: bold;
@@ -462,17 +463,17 @@ aside {
     height: 100%;
     width: 100%;
     background-color: #f2f2f2;
-    
+
 }
 
-.container2{
+.container2 {
     max-width: 60%;
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
 }
 
-.container2 ul{
+.container2 ul {
     line-height: 30px;
     list-style: none;
     display: block;
@@ -487,63 +488,203 @@ aside {
 
 @media screen and (max-width: 768px) {
 
- 
-/* Header */
-header {
-  
-  
-    padding-left: 50px;
-    padding-right: 50px;
+
+    /* Header */
+    header {
+
+
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .bloc1 {
+
+        flex-direction: column;
+        height: auto;
+    }
+
+    .logo {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .logo img {
+        height: 80px;
+        padding-left: 0px;
+    }
+
+    nav {
+        height: 50px;
+    }
+
+
+    .listmenu {
+
+        width: 100%;
+
+    }
+
+    .menu-item {
+        width: 50%;
+    }
+
+    .link {
+
+        width: 100%;
+
+    }
+
+    .link:hover {
+
+        border-top: 3px solid #FFFFFF;
+        border-bottom: 3px solid #0065fc;
+    }
+
+    .titre {
+        margin: auto;
+        width: 500px;
+        overflow: hidden;
+    }
+
+    .titre h1 {
+        width: 300px;
+        font-size: 20px;
+        font-weight: bolder;
+
+    }
+
+    .soustitre {
+        font-size: 15px;
+        color: black;
+        font-weight: 600;
 }
 
-.bloc1 {
-
-    flex-direction: column;
-    height: auto;
+.recherche {
+    width: 500px;
+    margin: auto;
 }
 
-.logo {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+
+
+input {
+  border: 1px solid #f2f2f2;
 }
 
-.logo img {
-    padding-left: 0px;
+.buttonsearch {
+    display: none;
 }
 
-nav{
+button {
+    width: 50px;
     height: 50px;
-}
-
-
-.listmenu {
-   
-    width: 100%;
+    border: none;
+    background-color: #0065fc;
     
-}
-
-.menu-item {
-    width: 50%;
-}
-
-.link {
-    
-    width: 100%;
-
-}
-
-.link:hover {
-  
-    border-top: 3px solid #FFFFFF;
-    border-bottom: 3px solid #0065fc;
+    border-radius: 15px;
 }
 
 
+.logoposition img {
+
+}
+.logoposition {
+}
+
+.allfilter {
+    width:500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+
+}
+.filter {
+    width: 200px;
+    text-align: center;
+}
+.titrefiltres {
+    margin: auto;
+    padding-left: 100px;
+    background-color: blue;
+    color: red;
+}
+
+.eco {
+
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+
+.information i {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #9b9191;
+    border-radius: 50px;
+    color: #0065fc;
+
+
+}
+
+.circle {
+
+    background: #9b9191;
+    padding: 15px;
+    border-radius: 50%;
+
+
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info {
+    font-weight: lighter;
+}
+
+.filtertitle {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+
+
+.filtericon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065fc;
+    height: 50px;
+    width: 50px;
+    background-color: #dfecff;
+    border-radius: 100%;
 
 }
 
 
+.titrefiltres {
+    margin-right: 32px;
+    margin-left: 0px;
+    font-size: 18px;
+
+}
+
+
+}
 
 
 
