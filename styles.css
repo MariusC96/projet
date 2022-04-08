@@ -544,8 +544,8 @@ aside {
 
     .titre {
         margin: auto;
-        width: 50%;
-        overflow: hidden;
+        width: 100%;
+       
     }
 
     .titre h1 {
@@ -562,7 +562,7 @@ aside {
 }
 
 .recherche {
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
@@ -586,22 +586,14 @@ button {
 }
 
 
-.logoposition img {
 
-}
-.logoposition {
-}
 
-.filter {
-
-}
 .titrefiltres {
-width: 60%;
-text-align: center;
+width: 100%;
     
 }
 .allfilter {
-    width:50%;
+    width:100%;
     height: 250px;
     display: flex;
     flex-wrap: wrap;
@@ -613,7 +605,7 @@ text-align: center;
 
 }
 .information {
-    width: 50%;
+    width: 100%;
     margin: auto;
     
 }
@@ -647,16 +639,7 @@ text-align: center;
     font-weight: lighter;
 }
 
-.filtertitle {
-    
 
-
-
-
-
-
-
-}
 
 
 /* section */ 
@@ -671,10 +654,10 @@ section {
 
 }
 .main {
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    margin: auto;
+   
     background-color: white;
 }
 
@@ -704,32 +687,10 @@ section {
 
 }
 
-.card1 {
-
-
-}
-
-.smallbox1 {
-   
-
-}
-
-.smallbox1 img {
-    
-
-
-}
-
 
 
 .infobox1 {
-    width: auto;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    flex: 1;
-    height: 40%;
+   
 }
 
 .infobox1 div {
@@ -739,12 +700,6 @@ section {
 .text>p,
 h3 {
 
-    display: flex;
-    font-size: 1.17em;
-    margin-block-start: 0px;
-    margin-block-end: 0px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 
 }
 
@@ -766,8 +721,8 @@ h3 {
 
 
 aside {
-    width:50%;
-    margin: auto;
+    width:80%;
+    
 
 }
 
@@ -782,15 +737,7 @@ aside {
     
 }
 
-.article2 {
-    
 
-}
-
-
-.smallbox2 img {
-    
-}
 
 .smallbox2 {
     width: 40%;
@@ -827,8 +774,8 @@ aside {
 
 .container {
     height: 100%;
-    width: 50%;
-    margin-left: 250px;
+    width: 100%;
+
     
 
 }
@@ -838,6 +785,4 @@ aside {
     flex-direction: column;
     gap: 30px;
 }
-
-.container2 ul {
 }
