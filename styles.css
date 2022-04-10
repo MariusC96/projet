@@ -1,6 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
-
+    margin: 0px;
 }
 
 
@@ -9,7 +9,7 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 20px;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -71,8 +71,7 @@ nav {
 }
 
 .link:hover {
-    color: #0065fc;
-    border-top: 3px solid #0065fc;
+    border-top: 5px solid #0065fc;
     border-bottom: 3px solid #FFFFFF;
 }
 
@@ -213,6 +212,13 @@ button {
     font-weight: lighter;
 }
 
+.blocFiltre{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
 .filtertitle {
     font-size: 13px;
     padding-left: 10px;
@@ -243,15 +249,13 @@ button {
 }
 
 .allfilter {
-    gap: 20px;
-    margin-top: 20px;
+  
     display: flex;
+    gap: 20px;
 
 }
 
 .titrefiltres {
-    margin-right: 32px;
-    margin-left: 0px;
     font-size: 18px;
 
 }
@@ -330,7 +334,7 @@ section {
     border-top-right-radius: 20px;
     width: 100%;
     height: 100%;
-
+    object-fit: cover;
 
 }
 
@@ -350,15 +354,19 @@ section {
     width: 100%;
 }
 
-.text>p,
-h3 {
+ h3 , p {
 
     display: flex;
-    font-size: 1.17em;
     margin-block-start: 0px;
     margin-block-end: 0px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+
+}
+
+.text> h3 {
+
+    font-size: 1.17em;
 
 }
 
@@ -382,7 +390,6 @@ aside {
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    padding: 20px;
     background-color: #f2f2f2;
 
 }
@@ -390,6 +397,8 @@ aside {
 .boxaside {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    gap : 20px;
 }
 
 .bloc {
@@ -414,6 +423,7 @@ aside {
 .smallbox2 img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -431,6 +441,9 @@ aside {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    width: auto;
+    flex: 1;
+
 }
 
 .text2 {
@@ -549,7 +562,7 @@ aside {
     }
 
     .titre h1 {
-        width: 80%;
+        
         font-size: 20px;
         font-weight: bolder;
 
@@ -586,7 +599,11 @@ button {
 }
 
 
-
+.blocFiltre{
+  
+    flex-direction: column;
+   
+}
 
 .titrefiltres {
 width: 100%;
@@ -594,10 +611,9 @@ width: 100%;
 }
 .allfilter {
     width:100%;
-    height: 250px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     margin: auto;
 
 }
@@ -651,7 +667,8 @@ section {
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
-
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .main {
     width: 80%;
@@ -721,14 +738,11 @@ h3 {
 
 
 aside {
-    width:80%;
-    
+    width:100%;
+    border-radius: 0px;
 
 }
 
-.boxaside {
-    
-}
 
 .bloc {
     
@@ -746,9 +760,6 @@ aside {
 }
 
 
-.infobox2 {
-    
-}
 
 .text2 {
     display: flex;
