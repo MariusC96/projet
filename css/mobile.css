@@ -309,9 +309,12 @@
 
 
     /* article */
+article{
+    padding: 20px;
 
+}
 article h3{
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .activitesmarseille {
