@@ -121,7 +121,6 @@
 
     }
 
-    .information i {}
 
     .information {
         width: 100%;
@@ -194,7 +193,7 @@
         font-weight: bold;
     }
 
-    .titlecard {}
+   
 
 
 
@@ -207,14 +206,13 @@
 
 
 
-    .infobox1 {}
+   
 
     .infobox1 div {
         width: 100%;
     }
 
-    .text>p,
-    h3 {}
+   
 
     .h3section h3 {
         padding-left: 30px;
@@ -312,9 +310,12 @@
 
 
     /* article */
+article{
+    padding: 20px;
 
+}
 article h3{
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .activitesmarseille {
