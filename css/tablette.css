@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) and (max-width: 1270px) {
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+       
+    }
+    
+    .h3section {
+        width: 100%;
+        font-weight: bold;
+        padding: 10px;
+    
+    }
+    
+    .h4section {
+        width: 100%;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    .titlecard {
+        text-align: center;
+        width: 500px;
+        height: 50px;
+    }
+    
+    .main {
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+    
+    }
+    
+    aside {
+        width: 100%;
+        border-radius: 0;
+    
+    }
+    
+    
+    
+    .bloc {
+        flex-direction: row;
+    }
+    .article2 {
+        width: 100%;
+    
+    }
+    
+    article h3{
+        font-size: 30px;
+    
+    }
+    .activitesmarseille {
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        height: auto;
+    }
+    
+    
+    .item{
+       width: 100%;
+       height: 400px;
+    }
+    
+    }
+    
