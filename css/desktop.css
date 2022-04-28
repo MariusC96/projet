@@ -308,7 +308,7 @@ section {
     height: 50px;
 }
 
-.main {
+#main {
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -511,7 +511,7 @@ article h3 {
     padding: 20px;
 }
 
-.activitesmarseille {
+#activitesmarseille {
 
     display: flex;
     flex-direction: column;
